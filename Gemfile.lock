@@ -13,6 +13,9 @@ GEM
     activeresource (2.3.18)
       activesupport (= 2.3.18)
     activesupport (2.3.18)
+    faker (1.2.0)
+      i18n (~> 0.5)
+    i18n (0.6.5)
     kgio (2.8.0)
     mysql2 (0.3.11)
     rack (1.1.6)
@@ -40,6 +43,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-mysql2-adapter (= 0.0.3)
+  faker
   mysql2
   rails (= 2.3.18)
   redis (= 2.2.2)

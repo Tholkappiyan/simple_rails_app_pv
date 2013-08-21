@@ -17,6 +17,7 @@ GEM
       i18n (~> 0.5)
     i18n (0.6.5)
     kgio (2.8.0)
+    mysql (2.9.1)
     mysql2 (0.3.11)
     rack (1.1.6)
     rails (2.3.18)
@@ -44,6 +45,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord-mysql2-adapter (= 0.0.3)
   faker
+  mysql
   mysql2
   rails (= 2.3.18)
   redis (= 2.2.2)
